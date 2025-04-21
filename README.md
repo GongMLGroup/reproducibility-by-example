@@ -35,6 +35,8 @@ To make the project more approachable for newcomers, we’ve iterated on the ori
 | Organized Project Structure| `structure`      | Modular folders, path fixes |  
 | Documentation             | `docs`           | `README.md`, docstrings |  
 
+> Hyperparameter search iterations were reduced from 100 &rarr; 10 to accelerate testing. While this sacrifices result quality, it prioritizes speed, as this repository emphasizes reproducibilty over optimization.
+
 **This is not a judgment on the original work** — all research code evolves! We aim to show how small changes can amplify impact.  
 
 ---
