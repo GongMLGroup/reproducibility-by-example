@@ -1,5 +1,24 @@
 # Workshop: Improving Code Reproducibility
 
+---
+
+## Prerequisites
+**Before starting**, install these tools to follow along smoothly:
+
+### Install Git (Version Control)  
+You’ll need Git to clone repositories and work with branches.
+https://git-scm.com/downloads
+
+### Install `uv` (Python Package Manager)
+[Official Installation Guide](https://docs.astral.sh/uv/getting-started/installation/)
+
+Restart your terminal, then verify:
+```bash
+uv --version
+```
+
+---
+
 ## Phase 1: Starting Point (`main` branch)
 
 - **Goal**: Identify issues in the original code.  
