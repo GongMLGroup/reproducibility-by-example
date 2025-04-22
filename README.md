@@ -14,10 +14,10 @@ uv --version
 ```
 
 ### Clone and Sync Project
-Clone the dependencies branch and sync the project requirements.
+Clone the structure branch and sync the project requirements.
 
 ```bash
-git clone -b dependencies https://github.com/GongMLGroup/reproducibility-by-example.git
+git clone -b structure https://github.com/GongMLGroup/reproducibility-by-example.git
 cd reproducibility-by-example
 uv sync
 ```
