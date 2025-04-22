@@ -27,6 +27,7 @@ uv sync
 ### Notebooks and Files
 Select `.venv` as your kernel of choice when running these notebooks.
 
+#### Notebooks
 * `1_Bandgap_preprocess.ipynb`
    * The preprocessing code
 * `2_Bandgap_pred.ipynb`
@@ -38,9 +39,17 @@ Select `.venv` as your kernel of choice when running these notebooks.
    * Predictive ML models for Valence Band Minimum (VBM)
 * `5_CBM.ipynb`
    * Predictive ML models for Conduction Band Minimum (CBM)
+>Note: in some of the codes BG is written as E_g
+
+#### Data
+Stored in the `data/` directory.
+* `raw_data.csv`
+* `cbm_vbm.csv`
 * `cleaned_df_Eg.csv`
    * supplementary file S2
 * `cbm_vbm_new.csv`
    * supplementary file S3.
-
->Note: in some of the codes BG is written as E_g
+ 
+#### Figures
+Figures generated in notebooks are saved to `figures/"notebook_name"`.
+> Note: `"notebook_name"` is replaced with the corresponding notebook name.
