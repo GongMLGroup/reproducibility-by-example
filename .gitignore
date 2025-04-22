@@ -1,2 +1,9 @@
 # Virtual Environment
 .venv
+
+# Catboost Logging
+catboost_info
+
+# Figures
+figures
+*.png
